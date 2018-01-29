@@ -10,7 +10,7 @@
 		DBD90BAD201F9ECD00E7F858 /* GeoCoderConversion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD90BA3201F9ECD00E7F858 /* GeoCoderConversion.framework */; };
 		DBD90BB2201F9ECD00E7F858 /* GeoCoderConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD90BB1201F9ECD00E7F858 /* GeoCoderConversionTests.swift */; };
 		DBD90BB4201F9ECD00E7F858 /* GeoCoderConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD90BA6201F9ECD00E7F858 /* GeoCoderConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBD90BBE201F9FAC00E7F858 /* LocationConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD90BBD201F9FAC00E7F858 /* LocationConverter.swift */; };
+		DBD90BBE201F9FAC00E7F858 /* GeoCoderConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD90BBD201F9FAC00E7F858 /* GeoCoderConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		DBD90BAC201F9ECD00E7F858 /* GeoCoderConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCoderConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD90BB1201F9ECD00E7F858 /* GeoCoderConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCoderConversionTests.swift; sourceTree = "<group>"; };
 		DBD90BB3201F9ECD00E7F858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBD90BBD201F9FAC00E7F858 /* LocationConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationConverter.swift; sourceTree = "<group>"; };
+		DBD90BBD201F9FAC00E7F858 /* GeoCoderConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCoderConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD90BA6201F9ECD00E7F858 /* GeoCoderConversion.h */,
-				DBD90BBD201F9FAC00E7F858 /* LocationConverter.swift */,
+				DBD90BBD201F9FAC00E7F858 /* GeoCoderConversion.swift */,
 				DBD90BA7201F9ECD00E7F858 /* Info.plist */,
 			);
 			path = GeoCoderConversion;
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD90BBE201F9FAC00E7F858 /* LocationConverter.swift in Sources */,
+				DBD90BBE201F9FAC00E7F858 /* GeoCoderConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +348,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeoCoderConversion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.GeoCoderConversion;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -371,7 +370,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeoCoderConversion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.GeoCoderConversion;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

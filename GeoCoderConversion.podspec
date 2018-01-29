@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GeoCoderConversion"
-  s.version      = "1.2.0"
+  s.version      = "1.3.0"
   s.summary      = "Convert Zip Code into Lat&Long Coordinates and vice-versa."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/itsmeabhinay/GeoCoderConversion.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/itsmeabhinay/GeoCoderConversion.git", :tag => "1.3.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

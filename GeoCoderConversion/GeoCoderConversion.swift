@@ -9,11 +9,11 @@
 import Foundation
 import CoreLocation
 
-class LocationConverter: NSObject {
+public class LocationConverter: NSObject {
     
-    // MARK: Get Placemarks from coordinates and zip code\
+    // MARK: Get Placemarks from coordinates and zip code
     
-    func getZipCodeForCurrentLocation(userLocation: CLLocation,
+    public func getZipCodeForCurrentLocation(userLocation: CLLocation,
                                       completionHandler: @escaping (_ placeMark: CLPlacemark?)
         -> Void ) {
         let geocoder = CLGeocoder()
@@ -32,7 +32,7 @@ class LocationConverter: NSObject {
         })
     }
     
-    func getCoordinatesForZipCode( addressString : String,
+    public func getCoordinatesForZipCode( addressString : String,
                                    completionHandler: @escaping(_ coordintes: CLLocationCoordinate2D, _ error: NSError?) -> Void ) {
         
         let geocoder = CLGeocoder()

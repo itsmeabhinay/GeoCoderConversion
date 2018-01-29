@@ -13,8 +13,13 @@ class LocationConverter: NSObject {
     
     // MARK: Get Placemarks from coordinates and zip code
     
-    func getZipCodeForCurrentLocation(userLocation: CLLocation,
-                                      completionHandler: @escaping (_ placeMark: CLPlacemark?)
+    var userLocation: CLLocation!
+    
+    init(currentLocation: CLLocation) {
+        userLocation = currentLocation
+    }
+    
+    func getZipCodeForCurrentLocation(completionHandler: @escaping (_ placeMark: CLPlacemark?)
         -> Void ) {
         let geocoder = CLGeocoder()
         
